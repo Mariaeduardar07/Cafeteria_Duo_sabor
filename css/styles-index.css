@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(98, 45, 34, 0.664);
+    color: #f4f4f4;    
+}
+
+/*menu*/
+header {
+    color: #f4f4f4;
+    text-align: center;
+    width: 100%;
+    max-height: 75px;
+    position: absolute;
+    top: -1px;
+    z-index: 2;
+}
+
+.foto-menu {
+    background-image: url(../img/menu.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 905px;
+    width: 100%;
+    position: relative;
+    top: -2px;
+    z-index: 1;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 6rem;
+    background-color:  rgba(98, 45, 34, 0.445);
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 50%;
+    object-fit: cover;  
+    max-width: 80px;
+}   
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color:#f4f4f4;
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    color: #f2b4b4;
+}
+
+
+.buscar {
+    margin-top: 10px;
+}
+
+.barra-busca {
+    border: none; /* Remove a borda padrão */
+    border-bottom: 2px solid #ffffff; /* Linha embaixo */
+    outline: none; /* Remove o contorno ao focar */
+    padding: 8px 0; /* Espaçamento vertical */
+    width: 300px; /* Largura da barra de busca */
+    font-size: 16px;
+    background: transparent; /* Remove o fundo branco */
+    color: #f4f4f4;
+}
+
+
+/*conteudo*/
+.imagem1 img {
+    height: 400PX;
+    width: 670PX;
+    border-radius: 12%;
+    object-fit: cover;
+    float: left;
+    margin: 40px 0px 60px 40px;
+    padding: 0px 50px 0px 50px;
+}
+
+
+
+.texto1 {
+    text-align: justify;
+    margin: 90px 0px 60px 100px;
+    padding: 1px 55px 0px 50px;
+    color: #000000;
+}
+
+.titulo-bem-vindo {
+    text-align: justify;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    /* flex-direction: column; */
+    color: #502820;
+    /* align-items: center; */
+
+}

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(98, 45, 34, 0.664);
+    color: #f4f4f4;    
+}
+
+/*menu*/
+header {
+    color: #f4f4f4;
+    text-align: center;
+    width: 100%;
+    max-height: 75px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 6rem;
+    background-color: rgb(98, 45, 34);
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 50%;
+    max-width: 80px;
+}   
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color:#f4f4f4;
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    color: #f2b4b4;
+}
+
+.buscar {
+    margin-top: 10px;
+}
+
+.barra-busca {
+    border: none; /* Remove a borda padrão */
+    border-bottom: 2px solid #ffffff; /* Linha embaixo */
+    outline: none; /* Remove o contorno ao focar */
+    padding: 8px 0; /* Espaçamento vertical */
+    width: 300px; /* Largura da barra de busca */
+    font-size: 16px;
+    background: transparent; /* Remove o fundo branco */
+    color: #f4f4f4;
+}
+
+/*contato-formulario*/
+
+main {
+    margin-top: 6rem;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    background-color: rgb(136, 64, 50);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
