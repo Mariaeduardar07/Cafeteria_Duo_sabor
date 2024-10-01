@@ -118,3 +118,9 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
     background-color: #555;
 }
+
+@media (min-width: 700px) {
+    .buscar {
+        margin-left: 50px;
+    }
+}
