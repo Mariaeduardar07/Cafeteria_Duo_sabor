@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+:root {
+    --color--header: #622d22a9;
+    --color--letter: #f4f4f4;
+    --color--bottom: #622d22;
+    --color--hover:  #f2b4b4;
+    --color--contato--:#884032;
+    }
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +17,7 @@
 }
 
 body {
-    background-color: rgba(98, 45, 34, 0.664);
+    background-color: #622d22a9;
     color: #f4f4f4;    
 }
 
@@ -24,7 +33,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 0.5rem 6rem;
-    background-color: rgb(98, 45, 34);
+    background-color: #622d22;
 
 }
 
@@ -108,7 +117,7 @@ form textarea {
 }
 
 form input[type="submit"] {
-    background-color: rgb(136, 64, 50);
+    background-color: #884032;
     color: #fff;
     border: none;
     padding: 10px 20px;
