@@ -147,3 +147,9 @@ h2 {
     top: 0px;
     left: 2px;
 }
+
+@media  (min-width: 768px) {
+    .buscar {
+        margin-left: 50px;
+    }
+}
