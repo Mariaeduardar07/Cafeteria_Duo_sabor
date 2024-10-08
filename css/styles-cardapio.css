@@ -114,7 +114,6 @@ h2 {
     background-color: #41161193;
     padding: 20px;
     border-radius: 10px;
-    height: 770px;
     margin-left: 36px;
 }
 
@@ -164,8 +163,3 @@ h2 {
     }
 }
 
-@media screen and (max-width: 700px) {
-    .cardapio {
-       flex-direction: column;
-    }
-}
