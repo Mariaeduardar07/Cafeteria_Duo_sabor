@@ -114,24 +114,19 @@ header {
 
 .texto1 {
     text-align: justify;
-    margin: 90px 0px 60px 100px;
+    margin: 90px 0px 60px 0px;
     padding: 1px 55px 0px 50px;
     color: #000000;
 }
 
 .titulo-bem-vindo {
-    text-align: justify;
     font-weight: 500;
     margin-bottom: 10px;
-    padding-top: 0px;
-    /* flex-direction: column; */
     color: #502820;
-    /* align-items: center; */
-
 }
 
 @media  (min-width: 768px) {
     .buscar {
         margin-left: 50px;
-    }    
+    }
 }
